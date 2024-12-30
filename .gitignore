@@ -19,7 +19,8 @@
 
 # Go workspace file
 go.work
-go.work.sum
+go.work.
+.idea
 
 # env file
 .env
