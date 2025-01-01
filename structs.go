@@ -5,19 +5,19 @@ import (
 	"fmt"
 )
 
-// Define a struct
+// Person Define a struct
 type Person struct {
 	Name string
 	Age  int
 	City string
 }
 
-// Method for Person struct
+// Introduce Method for Person struct
 func (p Person) Introduce() string {
 	return fmt.Sprintf("Hi, I'm %s, %d years old, from %s", p.Name, p.Age, p.City)
 }
 
-// Another struct with embedded struct
+// Employee Another struct with embedded struct
 type Employee struct {
 	Person
 	JobTitle string
